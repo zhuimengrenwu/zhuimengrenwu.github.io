@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pythonandseo.github.io</id>
     <title>PythonAndSeo</title>
-    <updated>2021-12-08T07:30:34.403Z</updated>
+    <updated>2021-12-08T07:49:53.511Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pythonandseo.github.io"/>
     <link rel="self" href="https://pythonandseo.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://pythonandseo.github.io/images/avatar.png</logo>
     <icon>https://pythonandseo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, PythonAndSeo</rights>
+    <entry>
+        <title type="html"><![CDATA[digitalocean创建16.04版本水滴]]></title>
+        <id>https://pythonandseo.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/</id>
+        <link href="https://pythonandseo.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/">
+        </link>
+        <updated>2021-12-08T07:48:10.000Z</updated>
+        <content type="html"><![CDATA[<p>因为程序只能在ubuntu16.04上运行，但是digitalocean停止该镜像，创建不成功</p>
+<pre><code class="language-python">data = {
+    &quot;name&quot;: &quot;ceshi&quot;,
+    &quot;region&quot;: &quot;nyc3&quot;,
+    &quot;size&quot;: &quot;s-1vcpu-2gb&quot;,
+    &quot;image&quot;: &quot;ubuntu-16-04-x64&quot;,
+}
+b = requests.post(url='https://api.digitalocean.com/v2/droplets', data=json.dumps(data), headers=headers)
+print(b.text)
+# {&quot;id&quot;:&quot;unprocessable_entity&quot;,&quot;message&quot;:&quot;You specified an invalid image for Droplet creation.&quot;}
+</code></pre>
+<p>给他们技术发送邮件，是这样回复的<br>
+<img src="/media/editor/76f1e510843e8a3154c1996dae5396e_20211117101044000111.png" alt="" loading="lazy"></p>
+<h3 id="方法链接">方法链接</h3>
+<pre><code class="language-python">https://docs.digitalocean.com/products/images/custom-images/how-to/
+</code></pre>
+<h3 id="镜像下载">镜像下载</h3>
+<pre><code class="language-python">https://cloud-images.ubuntu.com/releases/xenial/release/
+</code></pre>
+<p><em><strong>注意：digitalocean不支持iso，需要下载img格式</strong></em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在本地初始化一个django项目]]></title>
         <id>https://pythonandseo.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/</id>

@@ -2,23 +2,19 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | PythonAndSeo</title>
+<title>digitalocean创建16.04版本水滴 | PythonAndSeo</title>
 <link rel="shortcut icon" href="https://pythonandseo.github.io/favicon.ico?v=1638949790743">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://pythonandseo.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | PythonAndSeo - Atom Feed" href="https://pythonandseo.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="digitalocean创建16.04版本水滴 | PythonAndSeo - Atom Feed" href="https://pythonandseo.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站
-👨‍💻 博主是谁
-⛹ 兴趣爱好
-📬 联系我呀
-..." />
+    <meta name="description" content="因为程序只能在ubuntu16.04上运行，但是digitalocean停止该镜像，创建不成功
+data = {
+    &quot;name&quot;: &quot;ceshi&quot;,
+    &quot;region&quot;..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -81,11 +77,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              digitalocean创建16.04版本水滴
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2021-12-08
               </span>
               <span>
                 1 min read
@@ -95,23 +91,38 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                <p>因为程序只能在ubuntu16.04上运行，但是digitalocean停止该镜像，创建不成功</p>
+<pre><code class="language-python">data = {
+    &quot;name&quot;: &quot;ceshi&quot;,
+    &quot;region&quot;: &quot;nyc3&quot;,
+    &quot;size&quot;: &quot;s-1vcpu-2gb&quot;,
+    &quot;image&quot;: &quot;ubuntu-16-04-x64&quot;,
+}
+b = requests.post(url='https://api.digitalocean.com/v2/droplets', data=json.dumps(data), headers=headers)
+print(b.text)
+# {&quot;id&quot;:&quot;unprocessable_entity&quot;,&quot;message&quot;:&quot;You specified an invalid image for Droplet creation.&quot;}
+</code></pre>
+<p>给他们技术发送邮件，是这样回复的<br>
+<img src="/media/editor/76f1e510843e8a3154c1996dae5396e_20211117101044000111.png" alt="" loading="lazy"></p>
+<h3 id="方法链接">方法链接</h3>
+<pre><code class="language-python">https://docs.digitalocean.com/products/images/custom-images/how-to/
+</code></pre>
+<h3 id="镜像下载">镜像下载</h3>
+<pre><code class="language-python">https://cloud-images.ubuntu.com/releases/xenial/release/
+</code></pre>
+<p><em><strong>注意：digitalocean不支持iso，需要下载img格式</strong></em></p>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+<li>
+<ul>
+<li><a href="#%E6%96%B9%E6%B3%95%E9%93%BE%E6%8E%A5">方法链接</a></li>
+<li><a href="#%E9%95%9C%E5%83%8F%E4%B8%8B%E8%BD%BD">镜像下载</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -121,6 +132,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://pythonandseo.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/">
+              <h3 class="post-title">
+                在本地初始化一个django项目
+              </h3>
+            </a>
+          </div>
         
 
         
