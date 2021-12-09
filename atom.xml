@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://pythonandseo.github.io</id>
+    <id>https://zhuimengrenwu.github.io</id>
     <title>PythonAndSeo</title>
-    <updated>2021-12-08T10:16:59.981Z</updated>
+    <updated>2021-12-09T01:17:34.702Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://pythonandseo.github.io"/>
-    <link rel="self" href="https://pythonandseo.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zhuimengrenwu.github.io"/>
+    <link rel="self" href="https://zhuimengrenwu.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://pythonandseo.github.io/images/avatar.png</logo>
-    <icon>https://pythonandseo.github.io/favicon.ico</icon>
+    <logo>https://zhuimengrenwu.github.io/images/avatar.png</logo>
+    <icon>https://zhuimengrenwu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, PythonAndSeo</rights>
     <entry>
         <title type="html"><![CDATA[digitalocean创建16.04版本水滴]]></title>
-        <id>https://pythonandseo.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/</id>
-        <link href="https://pythonandseo.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/">
+        <id>https://zhuimengrenwu.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/</id>
+        <link href="https://zhuimengrenwu.github.io/post/digitalocean-chuang-jian-1604-ban-ben-shui-di/">
         </link>
         <updated>2021-12-08T07:48:10.000Z</updated>
         <content type="html"><![CDATA[<p>因为程序只能在ubuntu16.04上运行，但是digitalocean停止该镜像，创建不成功</p>
@@ -28,7 +28,7 @@ print(b.text)
 # {&quot;id&quot;:&quot;unprocessable_entity&quot;,&quot;message&quot;:&quot;You specified an invalid image for Droplet creation.&quot;}
 </code></pre>
 <p>给他们技术发送邮件，是这样回复的<br>
-<img src="https://pythonandseo.github.io/post-images/1638958598648.png" alt="" loading="lazy"></p>
+<img src="https://zhuimengrenwu.github.io/post-images/1638958598648.png" alt="" loading="lazy"></p>
 <h3 id="方法链接">方法链接</h3>
 <pre><code class="language-python">https://docs.digitalocean.com/products/images/custom-images/how-to/
 </code></pre>
@@ -40,8 +40,8 @@ print(b.text)
     </entry>
     <entry>
         <title type="html"><![CDATA[在本地初始化一个django项目]]></title>
-        <id>https://pythonandseo.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/</id>
-        <link href="https://pythonandseo.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/">
+        <id>https://zhuimengrenwu.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/</id>
+        <link href="https://zhuimengrenwu.github.io/post/zai-ben-di-chu-shi-hua-yi-ge-django-xiang-mu/">
         </link>
         <updated>2021-12-08T07:28:31.000Z</updated>
         <content type="html"><![CDATA[<h2 id="一配置虚拟环境">一.配置虚拟环境</h2>
@@ -154,8 +154,8 @@ Quit the server with CTRL-BREAK.
     </entry>
     <entry>
         <title type="html"><![CDATA[通过bing获取潜在客户电话，邮箱]]></title>
-        <id>https://pythonandseo.github.io/post/as/</id>
-        <link href="https://pythonandseo.github.io/post/as/">
+        <id>https://zhuimengrenwu.github.io/post/as/</id>
+        <link href="https://zhuimengrenwu.github.io/post/as/">
         </link>
         <updated>2021-12-08T03:12:14.000Z</updated>
         <content type="html"><![CDATA[<p>公司做的是传感器行业，属于上游企业，下游很多生产厂家需要用到传感器，以此为背景，编写爬虫帮助公司获取潜在客户邮箱，电话，这里以<strong>CO2 DETECTION</strong>这个关键词为例，如需获取其他产品，只需要更换关键词即可</p>
